@@ -1,0 +1,249 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	font-size: 20px;
+	font-family: 'Oxygen',sans-serif;
+	background: url(../images/pattern3.jpg) repeat;
+	color: #cccccc;
+}
+#ovrview
+{
+	text-align: justify;
+	/*text-justify: inter-word;*/
+	font-size: 25px;
+	color: #cccccc
+}
+#clr
+{
+	color: #cccccc;
+}
+
+h1
+{
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Lora',sans-serif;
+	font-weight: bold;
+	line-height: .75;
+}
+.rm
+{
+   	list-style: none;
+}
+
+#header-nav
+{
+	background-color:#FFFAFA;
+}
+.navbar-header h1
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: .75;
+	font-weight: bold;
+	margin-left: -15px;
+}
+#nav-list
+{
+	margin-top: 10px;
+}
+#nav-list a
+{
+	margin-top: 10px
+	color: #ffffff;
+	font-weight:bold;
+	text-align: center;
+}
+#nav-list a:hover
+{
+	color: #661a00;
+}
+.navbar-header button .navbar-toggle, .navbar-header.iconbar
+{
+	border:1px solid black;
+}
+
+.section-text a:hover
+{
+	color: blue;
+}
+.section-text a
+{
+	color: blue;
+}
+.section-text h3
+{
+	padding: 5px 0px 15px 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+div .section-text
+{
+	margin-top: 10px;
+	background: ;
+	padding: 15px;
+}
+
+
+h3
+{
+	font-weight: bold;
+}
+
+h2
+{
+	font-weight: bold;
+	margin-top: 20px;
+	line-height: .75;
+}
+#gld
+{
+	color: #A47F1A;
+	font-size: 20px;
+}
+
+#skills
+{
+	color: #A47F1A;
+	font-size: 30px;
+}
+#education
+{
+	color: #A47F1A;
+	font-size: 30px;
+}
+
+#projects
+{
+	color: #A47F1A;
+	font-size: 30px;
+}
+
+#header-nav
+{
+	width:100%;
+}
+#chu
+{
+	color: #A47F1A;
+}
+.textjustify
+{
+	color: #cccccc;
+	font-size: 15px;
+}
+
+/** #################################################################### **/
+/** ============= Footer-Menu ===================== **/
+.panel-footer {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.panel-footer h3 {
+  padding: 0px 2px;
+  margin: 5px 0px;
+  color:#CFB53B;
+}
+
+
+#ft-row2 {
+  background-color: #1A1A1A;
+  margin:0 -10.5rem;
+  padding: 0 10.5rem 0.75rem;
+}
+
+/********** Row3 **********/
+.cpright {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background-color: #A47F1A;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 -2rem;
+  padding:0rem 2rem ;
+}
+
+
+
+
+
+@media(min-width: 1200px)
+{
+	.navbrand h1
+	{
+		font-size: 2em;
+	}
+	h2
+	{
+		font-size: 1.8em;
+	}
+	h3
+	{
+		font-size: 1.5em;
+	}
+}
+
+
+
+@media(min-width: 992px) and (max-width: 1199px)
+{
+	.col-sm-12
+	{
+		width:100%;
+	}
+	.navbrand h1
+	{
+		font-size: 1.8em;
+	}
+	h2
+	{
+		font-size: 1.5em;
+	}
+	h3
+	{
+		font-size: 1.3em;
+	}
+}
+
+
+@media(min-width: 768px) and (max-width:991px)
+{
+
+	.navbrand h1
+	{
+		font-size: 1.5em;
+	}
+	h2
+	{
+		font-size: 1.3em;
+	}
+	h3
+	{
+		font-size: 1.1em;
+	}
+}
+
+
+
+
+@media(max-width: 767px)
+{
+	.navbrand h1
+	{
+		font-size: 1.5em;
+	}
+	h2
+	{
+		font-size: 1.3em;
+	}
+	h3
+	{
+		font-size: 1.1em
+	}
+}
