@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px; 
+   }
+   body{
+       background-color:#dda7e4;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .box{
+       margin:auto;
+       overflow-y: scroll;
+       margin-left:425px;
+       margin-right: 120px;
+       position:absolute;
+       width:54%;
+       height:60vh;
+       float:right;
+       background-color:rgb(69,111,111); 
+       border-radius: 5px;
+   }
+   .header{
+     border:1px solid rgb(238, 204, 204);
+     background-color: black;
+     margin:auto;
+     margin-top: 50px;
+     max-width:955px;
+     height:65px;
+   }
+   .message{
+     background-color: rgb(73, 63, 211);
+     width:24%;
+     padding:10px;
+     margin:17px 12px;
+     border:2px solid black;
+     border-radius: 10px;
+     margin-top:0px;
+   }
+   .left{
+     margin-top:10px;
+     margin-left: 2%;
+     float:left;
+     clear:both;
+   }
+   .right{
+     margin-top:15px;
+     float:right;
+     clear:both;
+   }
+   .heading{
+       float:left;
+       font-size: 35px;
+       padding-top:2px;
+       margin-top:0px;
+   }
+   .link{
+       float:right;
+       border:0px solid white;
+       text-decoration: none;
+       font-size: 23px;
+   }
+   .heading,.link{
+     padding:15px;
+     color:white;
+   }
+   .form{
+       text-align: center;
+   }
+   .fp{
+     width:66.5%;
+     height:25px;
+   }
+   .send{
+       cursor:pointer;
+       height:29px;
+       margin-top:197px;
+   }
+   .info h1{
+     font-size: 20px;
+   }
+   .info{
+     background-color: rgba(73, 63, 211,1);
+     width:15%;
+     padding:10px;
+     border:1px solid black;
+     margin:0px;
+     margin-top:0%;
+     margin-left:206px;
+     overflow-y: scroll;
+     position:absolute;
+     height:57vh;
+   }
+   .info h3{
+     background-color: lightblue;
+     font-weight: lighter;
+     padding:6px;
+     height:25px;
+   }
+   .dwh{
+     text-align: left;
+   }
+   ul{
+     list-style: none;
+     color:white;
+     padding-left: 0px;
+   }
+   li{
+     margin-top:10px; 
+   }
+   
+   
